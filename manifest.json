@@ -1,0 +1,14 @@
+{
+  "name": "Flickr Browser",
+  "description": "Browse Flickr, with style.",
+  "version": "1.0.1",
+  "app": {
+    "launch": {
+      "local_path": "application.html"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "128": "icons/128.png"
+  }
+}
