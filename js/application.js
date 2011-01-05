@@ -121,8 +121,11 @@
     
     info: function(id) {
       if (!id) return;
-      
-      Flickr.info(id);
+      if ($("#" + id + " .info").length > 0) {
+        $("#" + id + " .info").toggle();
+      } else {
+        Flickr.info(id);
+      }
     }
   };
   
