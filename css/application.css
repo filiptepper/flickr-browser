@@ -9,7 +9,7 @@ body {
 
 .slideshow {
   position: absolute;
-  height: 80%;
+  height: 79%;
   width: 100%;
   left: 0px;
   top: 8em;
@@ -35,7 +35,7 @@ body {
   height: 100%;
   left: 50%;
   top: 50%;
-  margin-top: -15em;
+  margin-top: -14em;
   -webkit-transition: margin 0.25s ease-in-out;
 }
 
